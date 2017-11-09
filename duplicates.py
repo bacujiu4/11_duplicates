@@ -30,7 +30,6 @@ def get_duplicate_files_list(merged_duplicates_paths_list):
 
 
 if __name__ == '__main__':
-    dir_path = "C:\\OpenLDAP"
     parser = argparse.ArgumentParser()
     parser.add_argument('dir_path')
     args = parser.parse_args()
